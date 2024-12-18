@@ -22,7 +22,7 @@ thicknesses = np.array(st.sidebar.multiselect(
 densities = np.array(st.sidebar.multiselect(
     "Choisissez les densités (kg/m³)",
     options=[50, 75, 110, 150, 200],
-    default=[75, 110, 150, 200]
+    default=[75, 110, 150]
 ))
 
 frequencies = np.array([100, 500, 1000, 2000])  # Gardé fixe pour simplification
